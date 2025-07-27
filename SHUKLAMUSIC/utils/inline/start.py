@@ -25,7 +25,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper"),
-            InlineKeyboardButton("˹ᴛιᴅᴀʟ ᴛᴜɴᴇs˼♪", url=f"http://t.me/TidalXMusicBot/tidaltunes"),
+            InlineKeyboardButton("˹ʏᴏʀsᴀ ᴛᴜɴᴇs˼♪", url=f"https://yorsa-mini-app.vercel.app/"),
         ],
         [
             InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
