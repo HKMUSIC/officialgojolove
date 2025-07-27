@@ -12,9 +12,9 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Bot and owner info
-OWNER_USERNAME = getenv("OWNER_USERNAME", "HEHE_STALKER")
-BOT_USERNAME = getenv("BOT_USERNAME", "tidalxmusicbot")
-BOT_NAME = getenv("BOT_NAME", "TIDAL")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "II_YOUR_GOJO_ll")
+BOT_USERNAME = getenv("BOT_USERNAME", "yorsamusicbot")
+BOT_NAME = getenv("BOT_NAME", "yorsa")
 ASSUSERNAME = getenv("ASSUSERNAME", "THEDRXNET")
 
 # MongoDB
@@ -23,20 +23,20 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002329141957))
-OWNER_ID = int(getenv("OWNER_ID", 7659846392))
+OWNER_ID = int(getenv("OWNER_ID", 7553434931))
 
 # Heroku
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # Git
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/shoaib910385/officialTidal")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/hkmusic/officialgojolove")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/thedrxnet")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/drx_supportchat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/GOJO_SUPPORT_GROUP_II")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/GOJO_NOBITA_II")
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
@@ -75,10 +75,10 @@ autoclean = []
 confirmer = {}
 
 # Image URLs
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/v0v41s.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/z1vt2e.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/dxt02f.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/xagcg4.jpg")
 PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/8rmrd9.jpg"
+STATS_IMG_URL = "https://graph.org/file/90ef1bc444de679d65209-335d94a31975f4eda6.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/2vq8oz.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/2vq8oz.jpg"
 STREAM_IMG_URL = "https://files.catbox.moe/2vq8oz.jpg"
