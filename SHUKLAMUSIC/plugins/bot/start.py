@@ -139,6 +139,7 @@ async def start_pm(client, message: Message, _):
         UP, CPU, RAM, DISK = await bot_sys_stats()
         await message.reply_photo(
             random.choice(YUMI_PICS),
+            has_spoiler=True,
             caption=_["start_2"].format(message.from_user.mention, app.mention, UP, DISK, CPU, RAM,served_users,served_chats),
             reply_markup=InlineKeyboardMarkup(out),
         )
@@ -199,6 +200,7 @@ async def welcome(client, message: Message):
                 out = start_panel(_)
                 await message.reply_photo(
                     random.choice(YUMI_PICS),
+                    has_spoiler=True,
                     caption=_["start_3"].format(
                         message.from_user.mention,
                         app.mention,
