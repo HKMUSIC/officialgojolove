@@ -81,7 +81,7 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            return await message.reply_photo(
+            await message.reply_photo(
                 random.choice(YUMI_PICS),
                 has_spoiler=True,
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
